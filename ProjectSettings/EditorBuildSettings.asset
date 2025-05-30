@@ -6,25 +6,25 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/EssentialScenes/MainMenuScene.unity
+    path: Assets/Scenes/MainMenuScene.unity
     guid: 47e4baf3a20cdf34883ffae13a255e3b
   - enabled: 1
-    path: Assets/Scenes/EssentialScenes/LoadingScene.unity
+    path: Assets/Scenes/LoadingScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/GameplayScenes/GameplayScene.unity
+    path: Assets/Scenes/GameplayScene.unity
     guid: eeeafb70d77c4594a81fa801bc8e4795
   - enabled: 1
-    path: Assets/Scenes/DeadScenes/BearDeadScene.unity
+    path: Assets/Scenes/BearDeadScene.unity
     guid: 9145b6373d799574da434e5bdc797d84
   - enabled: 1
-    path: Assets/Scenes/DeadScenes/HumanoidDeadScene.unity
+    path: Assets/Scenes/HumanoidDeadScene.unity
     guid: 00eb47be482732e41be457948f8825fe
   - enabled: 1
-    path: Assets/Scenes/DeadScenes/RataDeadScene.unity
+    path: Assets/Scenes/RataDeadScene.unity
     guid: 88b72d795b9ff62498adc54fbd44d9c6
   - enabled: 1
-    path: Assets/Scenes/EssentialScenes/EndScene.unity
+    path: Assets/Scenes/EndScene.unity
     guid: 781d643e91cb4c241896ae604a1dfce9
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
