@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Gameplay/GameplayScene.unity
     guid: eeeafb70d77c4594a81fa801bc8e4795
   - enabled: 1
+    path: Assets/Scenes/MainMenuScene/ControlsScene.unity
+    guid: 596893191fb85cc44be00ec1f13530f7
+  - enabled: 1
+    path: Assets/Scenes/MainMenuScene/CreditsScene.unity
+    guid: 850f8d10ae9abb04a9a84575181e469d
+  - enabled: 1
     path: Assets/Scenes/DeadScene/BearDeadScene.unity
     guid: 9145b6373d799574da434e5bdc797d84
   - enabled: 1

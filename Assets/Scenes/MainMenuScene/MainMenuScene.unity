@@ -602,6 +602,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: CreditsScene
   isLoadingScene: 0
+  isDeadScene: 0
 --- !u!1 &591887366
 GameObject:
   m_ObjectHideFlags: 0
@@ -1687,6 +1688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneName: LoadingScene
   isLoadingScene: 0
+  isDeadScene: 0
 --- !u!1 &1981061240
 GameObject:
   m_ObjectHideFlags: 0
@@ -1833,8 +1835,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97aeab7ad7a5a4b7abdecf699f79510b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: ControlScene
+  sceneName: ControlsScene
   isLoadingScene: 0
+  isDeadScene: 0
 --- !u!1 &2004541955
 GameObject:
   m_ObjectHideFlags: 0
