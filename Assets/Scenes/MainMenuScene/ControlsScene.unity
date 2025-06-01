@@ -596,6 +596,7 @@ MonoBehaviour:
   sceneName: MainMenuScene
   isLoadingScene: 0
   isDeadScene: 0
+  isCreditsScene: 0
 --- !u!1 &1483463593
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,7 +654,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 3c8b511bf4310b847a894dc05725e5e8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

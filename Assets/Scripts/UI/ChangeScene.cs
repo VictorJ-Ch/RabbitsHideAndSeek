@@ -5,22 +5,29 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
-    public string sceneName; 
+    public string sceneName;
     public bool isLoadingScene;
     public bool isDeadScene;
+    public bool isCreditsScene;
 
     void Update()
     {
-        if(isLoadingScene)
+        if (isLoadingScene)
         {
             StartCoroutine(DelayedSceneChange());
             isLoadingScene = false;
         }
-        if(isDeadScene)
+        if (isDeadScene)
         {
             Cursor.lockState = CursorLockMode.None;
             StartCoroutine(ReadingDeadPanel());
             isDeadScene = false;
+        }
+        if (isCreditsScene)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            StartCoroutine(ReadingCredits());
+            isCreditsScene = false;
         }
     }
 
@@ -40,6 +47,12 @@ public class ChangeScene : MonoBehaviour
     IEnumerator ReadingDeadPanel()
     {
         yield return new WaitForSeconds(5f);
+        SceneManager.LoadScene(sceneName);
+    }
+
+    IEnumerator ReadingCredits()
+    {
+        yield return new WaitForSeconds(20f);
         SceneManager.LoadScene(sceneName);
     }
 }
