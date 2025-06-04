@@ -14,9 +14,21 @@ public class EnemyVision : MonoBehaviour
     public bool targetInRange;
 
     void Update()
+{
+    if (target == null) return;
+
+    ActorType actor = target.GetComponent<ActorType>();
+    HumanoidShoot shooter = GetComponent<HumanoidShoot>();
+
+    if (actor != null && actor.isPlayer && shooter != null)
     {
         VisualCone();
+        if (watchingTarget)
+        {
+            shooter.Shoot();
+        }
     }
+}
 
     void OnDrawGizmos()
     {

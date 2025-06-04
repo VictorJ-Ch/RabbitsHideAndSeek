@@ -7,4 +7,5 @@ public class ActorType : MonoBehaviour
     public bool isBear;
     public bool isRat;
     public bool isHumanoide;
+    public bool isPlayer;
 }

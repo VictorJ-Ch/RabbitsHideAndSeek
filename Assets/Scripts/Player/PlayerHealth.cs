@@ -21,7 +21,7 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    void TomarDaño(int daño, ActorType actor)
+    public void TomarDaño(int daño, ActorType actor)
     {
         vidaActual -= daño;
         vidaActual = Mathf.Clamp(vidaActual, 0, vidaMaxima);
