@@ -11,12 +11,7 @@ public class Winning : MonoBehaviour
 
         if (actor != null && actor.isPlayer)
         {
-            Debug.Log($"Trigger activado por {other.gameObject.name}, cambiando a escena: {sceneName}");
             SceneManager.LoadScene(sceneName);
-        }
-        else
-        {
-            Debug.Log($"Trigger con {other.gameObject.name}, pero no es un jugador.");
         }
     }
 }

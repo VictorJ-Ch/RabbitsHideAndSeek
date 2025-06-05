@@ -37,6 +37,12 @@ public class ChangeScene : MonoBehaviour
         Debug.Log("Cambiando a: " + sceneName);
     }
 
+    public void QuitApp()
+    {
+        Debug.Log("Game's closing");
+        Application.Quit();
+    }
+
     IEnumerator DelayedSceneChange()
     {
         yield return new WaitForSeconds(3f);

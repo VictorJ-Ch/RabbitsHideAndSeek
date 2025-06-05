@@ -20,6 +20,7 @@ public class HumanoidShoot : MonoBehaviour
             {
                 rb.velocity = shootPoint.forward * bulletSpeed;
             }
+            Destroy(bullet, 5f);
             StartCoroutine(ShootCooldown());
         }
     }
